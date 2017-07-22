@@ -36,11 +36,12 @@
     transition: all 400ms;
     &:hover {
       opacity: 0.5;
-      color: white;
+      color: rgb(89, 105, 99);
       border-left: none;
       margin-right: 2%;
       margin-top: 1%;
       font-size: 1.1em;
+      text-decoration: underline;
     }
   }
 }
@@ -57,16 +58,19 @@
   &_left {
     width: 30%;
     text-align: right;
+    display: none;
   }
   &_divider {
     border: solid 1px grey;
     height: 100px;
     margin: 3%;
+    display: none;
   }
   &_right {
     width: 30%;
     font-size: 1.3em;
     text-align: left;
+    display: none;
   }
 }
 
