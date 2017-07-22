@@ -53,17 +53,20 @@
   justify-content: center;
   align-items: center;
   color: rgb(85, 85, 85);
+
   &_left {
     width: 30%;
+    text-align: right;
   }
   &_divider {
     border: solid 1px grey;
     height: 100px;
+    margin: 3%;
   }
   &_right {
     width: 30%;
-    text-align: center;
     font-size: 1.3em;
+    text-align: left;
   }
 }
 
