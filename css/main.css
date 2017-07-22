@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Antic+Didone|Fjord+One");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Antic Didone', serif; }
+
+.arrow {
+  position: fixed;
+  top: 2px;
+  left: 1%;
+  width: 37px;
+  filter: invert(50%);
+  transition: filter 200ms; }
+  .arrow:hover {
+    filter: invert(20%); }
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .nav_item {
+    margin: 1%;
+    color: #535353;
+    text-decoration: none;
+    border-left: solid 1px #518793;
+    padding: 1%;
+    transition: all 400ms; }
+    .nav_item:hover {
+      opacity: 0.5;
+      color: white;
+      border-left: none;
+      margin-right: 2%;
+      margin-top: 1%;
+      font-size: 1.1em; }
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(300deg, #9baaa9, white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555555; }
+  .hero_left {
+    width: 30%; }
+  .hero_divider {
+    border: solid 1px grey;
+    height: 100px; }
+  .hero_right {
+    width: 30%;
+    text-align: center;
+    font-size: 1.3em; }
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer {
+  height: 150px;
+  background: linear-gradient(5deg, #bbd3d9, white);
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */
