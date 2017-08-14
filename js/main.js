@@ -10,10 +10,10 @@ $(document).on('click', 'a', function(event){
 
 $(document).ready(function(){
 
-    $('.hero_left').fadeIn(5000);
+    $('.hero_left').fadeIn(3500);
 
-    $('.hero_divider').fadeIn(1000);
-    $('.hero_right').fadeIn(3000);
+    $('.hero_divider').fadeIn(800);
+    $('.hero_right').fadeIn(2000);
 
 
 
